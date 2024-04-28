@@ -1,0 +1,18 @@
+.chartTemplate {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+
+  margin: 6px;
+  border: 1px solid black;
+}
+
+.chartTemplate .filters {
+  height: 80px;
+}
+
+.chartTemplate .recharts-responsive-container {
+  flex: 1;
+}
